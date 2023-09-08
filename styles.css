@@ -1,0 +1,142 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* line-height: 1.6; */
+    background-color: #000;
+}
+
+.container {
+    padding: 0 15%;
+}
+
+header {
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 450px;
+    height: auto;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 30px;
+}
+
+nav ul li:hover > a {
+    color: #000;
+}
+
+nav ul li:hover {
+    background-color:#fff;
+}
+
+.beginning-content {
+    background-image: url('pleasework.png');
+    background-size: 512px 340px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    text-align: left;
+    padding: 50px;
+}
+
+.beginning-content h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    padding-top: 60px;
+    font-size: 60px;
+    color: white;
+}
+
+.beginning-content p {
+    padding-top: 20px;
+    max-width: 600px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.cta-button {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.main-content {
+    padding: 0 50px;
+    padding-bottom: 60px;
+    background-color: #333;
+}
+
+.main-content h2 {
+    max-width: 600px;
+    font-family: 'Kanit', sans-serif;
+    padding-top: 60px;
+    font-size: 40px;
+    color: white;
+}
+
+.main-content p {
+    text-align: left;
+    max-width: 1100px;
+    padding-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+
+    background-color: #333;
+}
+
+.buttons-container a {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    background-color: #cacaca;
+    color: #000;
+    padding: 10px 20px;
+    margin: 50px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
